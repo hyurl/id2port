@@ -1,0 +1,29 @@
+{
+  "name": "id2port",
+  "version": "0.1.0",
+  "description": "Generates a port for usage according to the given string id.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyurl/id2port.git"
+  },
+  "keywords": [
+    "port",
+    "id",
+    "string"
+  ],
+  "author": "Ayon Lee <i@hyurl.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyurl/id2port/issues"
+  },
+  "homepage": "https://github.com/hyurl/id2port#readme",
+  "dependencies": {
+    "string-hash": "^1.1.3",
+    "well-known-ports": "^0.1.0"
+  }
+}
