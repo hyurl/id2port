@@ -19,3 +19,8 @@ This function will travel the ports from `1 - 65535` according to the given id
 as long as you continue calling `next()` until all ports are viewed, but it will
 skip some well-known ports as module 
 [well-known-ports](https://github.com/bengreenier/well-known-ports) suggests.
+
+## Notes
+
+This module doesn't detect if the returning port is being used or not, you must 
+do detect it yourself.

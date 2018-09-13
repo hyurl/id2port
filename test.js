@@ -1,3 +1,5 @@
+"use strict";
+
 const id2port = require(".").default;
 const assert = require("assert");
 const usedPorts = require("well-known-ports");
